@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
     <meta charset="utf-8">
@@ -8,6 +9,23 @@
   </head>
   <body>
     <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+      <div class="nav nav-tabs">
+        <li role="presentation" class="active"><a href="#">Main Page</a></li>
+        <li role="presentation"><a href="#">Talk</a></li>
+      </div>
+      </div>
+      <div class="col-md-6">
+      <div class="nav nav-tabs">
+        <li role="presentation" class="active"><a href="#">Read</a></li>
+        <li role="presentation"><a href="#">View source</a></li>
+        <li role="presentation"><a href="#">View history</a></li>
+        <li role="presentation" id="search"><input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </div>
+      </div>
+    </div>
       <div class="well">
         <div class="row">
           <div class="col-md-6">
@@ -108,8 +126,21 @@
     </div>
   </div>
 
-  </div>
 
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="panel panel-info">
+        <div class="panel-heading">
+          <h1 class="panel-title">Today's featured picture</h1>
+        </div>
+        <div class="panel-body" id="purple">
+          <img src="#" alt="Native American">
+          <p>
+Hollow Horn Bear (1850–1913) was a Brulé Lakota leader, who fought in many battles, including Little Bighorn. As police chief of the Rosebud Reservation, he arrested Crow Dog for the murder of Spotted Tail and testified before the Supreme Court of the United States in Ex parte Crow Dog. He was the chief orator for the Lakota, and took part in the inaugural parades for Theodore Roosevelt and Woodrow Wilson. He was featured on a 1922 postage stamp and the 1970 $10 Military Payment Certificate, and was possibly the basis for other depictions of Native Americans including the US five-dollar bill.</p>
+      </div>
+    </div>
+  </div>d
 
   </body>
 </html>
